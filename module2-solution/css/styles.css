@@ -14,19 +14,19 @@ h1 {
 	width: 150px;
 	margin: auto;
 	padding: 30px 7px;
+	font-size: 175%;
 }
 
 #menu-container {
 	overflow: hidden;
 	padding: 15px;
-	display: inline-block;
 }
 
 section {
 	position: relative;
 	height: 120px;
 	overflow: hidden;
-	padding: 25px 15px;
+	padding: 30px 15px;
 	background-color: #909090;
 	border: 2px solid #0F0F0F;
 	margin-right: 1.5%;
@@ -46,6 +46,7 @@ section .title {
 	font-weight: 700;
 	margin: auto;
 	border: 2px solid #0F0F0F;
+	font-size: 125%;
 }
 
 #menu-item-title-1 {
