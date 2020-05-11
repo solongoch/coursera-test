@@ -5,6 +5,20 @@ body {
 	background-color: #DDD;
 }
 
+.back-top {
+	color: #EEE;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: .8em;
+	border: 1px solid #EEE;
+	padding: 5px;
+}
+
+.back-top:hover {
+	background-color: #EEE;
+	color: #43895E;
+	text-decoration: none;
+}
 /* HEADER */
 #header-nav {
 	background-color: #43895E;
@@ -71,9 +85,10 @@ body {
 	text-shadow: 2px 2px 2px #555;
 }
 
-#show-content {
+.show-content {
 	margin-top: 20px;
 	padding: 20px 30px;
 	background-color: #43895E;
 	color: #EEE;
+	border: 10px solid #DDD;
 }
