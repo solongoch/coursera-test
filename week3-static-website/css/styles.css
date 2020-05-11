@@ -91,10 +91,33 @@ body {
 	clear: both;
 	margin-top: -30px;
 }
+/* End Header */
+
+/* Home Page */
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #CCCCCC;
+}
 
 /****** Large devices only *****/
 @media (min-width: 1200px) {
-
+	.container .jumbotron {
+		background: url('../img/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+	}
 }
 
 /****** Medium devices only *****/
@@ -106,11 +129,19 @@ body {
 		height: 100px;
 		margin: 5px 5px 5px 0;
 	}
+
+	.container .jumbotron {
+		background: url('../img/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+	}
 }
 
 /****** Small devices only *****/
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.container .jumbotron {
+		background: url('../img/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+	}
 }
 
 /****** Extra small devices only *****/
@@ -135,12 +166,34 @@ body {
 		height: 20px;
 	}
 
-	#collapsable-nav a {
+	#collapsable-nav a { /* Collapsed nav menu glyph */
 		font-size: 1.2em;
 	}
 
-	#collapsable-nav a span {
+	#collapsable-nav a span { 
 		font-size: 1em;
 		margin-right: 5px;
+	}
+
+	#call-btn {
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #FFF;
+		background-color: #F6B319;
+		color: #951C49;
+	}
+
+	#xs-deliver {
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+	/* End Header */
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
 	}
 }
